@@ -1,0 +1,81 @@
+.nav-img{
+  margin: 0%;
+  height: 350px;   
+}
+.icon-img{
+height:7%;
+position: absolute;
+top:10px;
+}
+ .button{
+    background-color:#00cc66;
+    color: white;
+    padding: 10px 24px;
+  position: absolute;
+  top:10px;
+  left: 130px;
+  border-radius: 8px;
+  border-color:royalblue;
+} 
+
+.search-bar{
+  position: absolute;
+  top:15px;
+  left: 500px;
+}
+.search-bar input{
+  height: 27px;
+  width: 480px;
+  font-size: 19px;
+  background-color: transparent;
+  border-color: violet;
+  border-radius: 8px;
+  color: white;
+}
+.search{
+position: absolute;
+top:15px;
+right:514px;
+border-radius: 8px;
+border-color: violet;
+}
+.signin{
+  position: absolute;
+  top:10px;
+  right: 200px;
+  padding: 10px 24px;
+  background-color:transparent;
+  color: white;
+  border-color:white;
+  border-radius: 12px;
+  font-weight: bold;
+}
+.signup{
+  position: absolute;
+  top:10px;
+  right: 75px;
+  padding: 10px 24px;
+  background-color:#00cc66;
+  color: white;
+  border-radius: 12px;
+  border-color: white;
+  font-weight:bold;
+}
+.input-box{
+  border-radius: 4px;
+  border-color: #a60059;
+  font-family:monospace;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 300px;
+  padding: 10px 20px;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.App{
+  background-color: #34568B;
+}

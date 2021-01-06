@@ -1,0 +1,29 @@
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+.post{
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 4px #f4f4f4;
+    background-color:white;
+}
+.post-info{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    text-align: center;
+}
